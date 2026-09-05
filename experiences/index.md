@@ -10,6 +10,8 @@ relates_to:
     kind: related
   - path: experiences/2026-09-05-eslogger-waiting-startup.md
     kind: related
+  - path: experiences/2026-09-05-live-without-activation-capture-pressure.md
+    kind: related
 ---
 
 # Experiences
@@ -22,3 +24,6 @@ prescriptions or claims that a suspected cause has been proven.
 - [Collector remained Waiting until startup was separated](2026-09-05-eslogger-waiting-startup.md):
   explicit authorization and restart restored capture; the initial authorization
   state was not conclusively observed.
+- [Live without activation under capture pressure](2026-09-05-live-without-activation-capture-pressure.md):
+  matching reads and visual cues recovered after restart, while high producer
+  resource usage recurred and the freshness problem remained unresolved.

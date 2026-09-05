@@ -12,6 +12,8 @@ relates_to:
     kind: related
   - path: experiences/2026-09-05-eslogger-waiting-startup.md
     kind: related
+  - path: experiences/2026-09-05-live-without-activation-capture-pressure.md
+    kind: related
 ---
 
 # Activity startup recovery
@@ -26,6 +28,9 @@ changing monitor provider, broadening process scope, or patching installed code.
 
 Done on 2026-09-05. Both incidents were resolved operationally.
 No runtime code fix or application merge was required.
+Later that evening, activation cues disappeared despite Live status.
+Restart restored the cues, including user confirmation in the embedded canvas,
+but recurring producer resource pressure remains an unresolved reliability risk.
 
 ## Outcomes
 
@@ -33,10 +38,15 @@ No runtime code fix or application merge was required.
   reloading the extension restored the missing endpoint and preserved the Atlas.
 - [Collector startup](../experiences/2026-09-05-eslogger-waiting-startup.md):
   matching tool reads reached Live after separate authorization and restart.
+- [Capture-pressure follow-up](../experiences/2026-09-05-live-without-activation-capture-pressure.md):
+  old and new files remained valid targets; delayed capture, healthy playback
+  after restart, and the limits of the Live indicator were documented.
 
 Potential follow-ups remain proposals, not completed features: explain
 preauthorization before a shell pipeline; distinguish collector connectivity
 from the first accepted access; and make UI/backend mismatch easier to diagnose.
+Capture freshness and producer overload need separate treatment from the
+browser's visual playback queue. Operational recovery is not a permanent fix.
 
 ## Evidence provenance
 
