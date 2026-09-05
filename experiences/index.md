@@ -12,6 +12,8 @@ relates_to:
     kind: related
   - path: experiences/2026-09-05-live-without-activation-capture-pressure.md
     kind: related
+  - path: experiences/2026-09-05-closer-activation-framing.md
+    kind: related
 ---
 
 # Experiences
@@ -27,3 +29,6 @@ prescriptions or claims that a suspected cause has been proven.
 - [Live without activation under capture pressure](2026-09-05-live-without-activation-capture-pressure.md):
   matching reads and visual cues recovered after restart, while high producer
   resource usage recurred and the freshness problem remained unresolved.
+- [Closer activation framing](2026-09-05-closer-activation-framing.md):
+  a user request exposed a restrictive 3x automatic zoom cap; a locally
+  implemented 20x cap substantially enlarges the reported active group.
