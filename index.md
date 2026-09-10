@@ -14,6 +14,8 @@ relates_to:
     kind: related
   - path: lessons/index.md
     kind: related
+  - path: autogenesis/index.md
+    kind: related
 ---
 
 # Cartograph Atlas
@@ -27,6 +29,7 @@ unproven universal explanation.
 - [Work](work/index.md): the efforts that produced those experiences.
 - [Decisions](decisions/index.md): accepted interaction and runtime contracts.
 - [Lessons](lessons/index.md): reusable guidance from measured outcomes.
+- [Autogenesis](autogenesis/index.md): design plans and work hubs.
 - [Authoring guidance](README.md): how to extend the store safely.
 - [Structural log](log.md): initialization and work lifecycle changes.
 - [Templates](templates/index.md): reusable page scaffolds.
