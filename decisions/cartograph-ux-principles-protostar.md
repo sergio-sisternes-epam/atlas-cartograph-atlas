@@ -15,6 +15,8 @@ relates_to:
   - path: decisions/cartograph-v030-interaction-contract.md
     kind: derived_from
 sources:
+  - https://github.com/sergio-sisternes-epam/atlas-cartograph/releases/tag/v0.4.0
+  - https://github.com/sergio-sisternes-epam/atlas-cartograph/blob/0e391ffb530252874b5ed163a17228a471789a12/.apm/extensions/cartograph/public/styles.css
   - https://github.com/sergio-sisternes-epam/atlas-cartograph/blob/f0e713136774e8d56a8993acbc5017e100124872/.apm/extensions/cartograph/public/styles.css
   - https://github.com/sergio-sisternes-epam/atlas-cartograph/commit/aa6b2ed50e1d4879f920ed7dda57abec0efbd926
   - https://github.com/sergio-sisternes-epam/atlas-cartograph/commit/ac9608710e9f23a3e8b30518168270dbc0143f90
@@ -39,9 +41,10 @@ This extends the existing [source-link decision](readable-external-source-links.
 and [interaction contract](cartograph-v030-interaction-contract.md), rather than
 replacing their behavioral boundaries.
 
-Evidence is from this development branch, not a claim of published release
-content. The linked commits were inspected locally; remote availability was
-not established.
+The initial capture described development-branch evidence. Those changes
+subsequently merged in PR #10 and shipped in v0.4.0. The visual reference below
+includes the user's later 12px/8px information-button refinement; the broader
+principles and unimplemented review-skill proposal remain forming.
 
 ## Observed project patterns
 
@@ -63,7 +66,8 @@ not established.
 These values describe the current interface, not universal design tokens.
 Read the canonical runtime styles before changing them.
 
-- Information buttons: 24px target and 12px glyph, reduced from 28px and 14px.
+- Information buttons: 12px target and 8px glyph, as explicitly requested after
+  the initial 24px/12px refinement.
   Keep visible focus and a usable target when reducing visual weight; primary
   actions and touch-heavy layouts may need larger targets.
 - Top-section SVGs: 80% opacity. Use local assets and a consistent visual weight.
@@ -94,6 +98,11 @@ at desktop and 600px viewport widths. Its popup opened and Escape restored
 focus; the narrow page had no horizontal overflow. The targeted information
 popup and frontend interaction run passed 60 tests. This is evidence for this
 change, not a claim of a complete accessibility audit.
+
+That measurement is retained as historical evidence. The later requested and
+released size is 12 by 12 CSS pixels with an 8px glyph, not the earlier 24px/12px
+capture. Small visual controls must not be generalized into a universal target
+size without considering keyboard, pointer and touch accessibility.
 
 ## UX skill assessment
 

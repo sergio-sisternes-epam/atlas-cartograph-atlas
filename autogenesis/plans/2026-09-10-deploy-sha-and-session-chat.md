@@ -25,6 +25,11 @@ relates_to:
 **change-class:** `new-surface`  
 **path:** design (stops for approval; do not implement)
 
+This is the historical design packet. Delivery, the subsequent chat transport
+correction and v0.4.0 acceptance are recorded in the
+[completed work hub](../work/2026-09-10-deploy-sha-and-session-chat.md).
+The original design below is preserved, not a pending implementation request.
+
 ## Problem
 
 Two user-facing gaps after v0.3.0:

@@ -10,6 +10,8 @@ relates_to:
     kind: related
   - path: autogenesis/work/index.md
     kind: related
+  - path: autogenesis/discussions/index.md
+    kind: related
 ---
 
 # Autogenesis
@@ -19,3 +21,4 @@ work hubs. It is process memory, not runtime code.
 
 - [Plans](plans/index.md): pinned design packets awaiting or recording approval.
 - [Work](work/index.md): canonical work hubs keyed by `work_id`.
+- [Discussions](discussions/index.md): observed gaps and candidate follow-up designs.
