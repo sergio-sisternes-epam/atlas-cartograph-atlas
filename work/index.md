@@ -12,6 +12,8 @@ relates_to:
     kind: related
   - path: work/cartograph-v030-2026-09-10.md
     kind: related
+  - path: work/eslogger-unprivileged-alternatives-2026-09-10.md
+    kind: related
 ---
 
 # Work
@@ -26,3 +28,5 @@ completion state.
   capture is retained as historical evidence.
 - [v0.3.0 refinement and release](cartograph-v030-2026-09-10.md):
   completed visual design, interaction changes and ordered distribution.
+- [Unprivileged eslogger alternatives](eslogger-unprivileged-alternatives-2026-09-10.md):
+  closed investigation; no sudo-less same-capability replacement.

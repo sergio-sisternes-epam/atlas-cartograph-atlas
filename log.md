@@ -19,3 +19,7 @@
 - 2026-09-10: Closed the Atlas-chat follow-up with the acknowledged real-host
   v0.4.0 outcome and publication record; retained the original failure and
   proposal as history. The separate UX review-skill proposal remains forming.
+- 2026-09-10: Opened and closed `eslogger-unprivileged-alternatives-2026-09-10`
+  after recording why macos-eslogger needs Endpoint Security/sudo, a summary,
+  and one report per examined alternative. Added a `documents/` space. No
+  Cartograph runtime change.

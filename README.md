@@ -41,5 +41,6 @@ There is no unattended experience collection or background capture.
 - [Work](work/index.md): scope and outcomes for related experiences.
 - [Decisions](decisions/index.md): accepted design contracts with provenance.
 - [Lessons](lessons/index.md): derived, reusable engineering guidance.
+- [Documents](documents/index.md): investigation summaries and candidate reports.
 - [Structural log](log.md): initialization and work lifecycle changes.
 - [Templates](templates/index.md): the initialized Atlas authoring templates.

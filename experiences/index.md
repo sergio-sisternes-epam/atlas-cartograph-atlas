@@ -18,6 +18,8 @@ relates_to:
     kind: related
   - path: experiences/2026-09-10-v040-installed-runtime-and-sha.md
     kind: related
+  - path: experiences/2026-09-10-eslogger-unprivileged-ask.md
+    kind: related
 ---
 
 # Experiences
@@ -42,3 +44,6 @@ prescriptions or claims that a suspected cause has been proven.
 - [Installed v0.4.0 chat recovery and missing SHA](2026-09-10-v040-installed-runtime-and-sha.md):
   reloading the affected session restored acknowledged chat replies; the
   separate global source-install provenance gap remains tracked in issue #12.
+- [Unprivileged eslogger ask](2026-09-10-eslogger-unprivileged-ask.md):
+  user asked for folder-scoped sudo-less monitoring matching eslogger, then
+  for an open-source canvas embed.
