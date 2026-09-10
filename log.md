@@ -13,3 +13,12 @@
 - 2026-09-10: Added `help/` and reciprocal graph links to Atlas-owned Cartograph
   onboarding. This connects knowledge stores without copying pilot memory,
   adding executable dependencies, or authorizing privileged capture.
+- 2026-09-10: Opened Autogenesis space and work
+  `2026-09-10-deploy-sha-and-session-chat` at status designed.
+- 2026-09-10: Closed `2026-09-10-deploy-sha-and-session-chat` after SHA stamps
+  and host-session chat landed in the Cartograph runtime.
+- 2026-09-10: Added the Atlas-chat discussion and a forming activation/reply
+  proposal after a real-host probe disproved end-to-end answer delivery.
+- 2026-09-10: Closed the Atlas-chat follow-up with the acknowledged real-host
+  v0.4.0 outcome and publication record; retained the original failure and
+  proposal as history. The separate UX review-skill proposal remains forming.
