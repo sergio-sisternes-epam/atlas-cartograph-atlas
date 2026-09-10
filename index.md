@@ -10,6 +10,10 @@ relates_to:
     kind: related
   - path: work/index.md
     kind: related
+  - path: decisions/index.md
+    kind: related
+  - path: lessons/index.md
+    kind: related
 ---
 
 # Cartograph Atlas
@@ -21,6 +25,8 @@ unproven universal explanation.
 - [Experiences](experiences/index.md): operational observations, starting with
   stale-runtime activity failures and a collector that remained Waiting.
 - [Work](work/index.md): the efforts that produced those experiences.
+- [Decisions](decisions/index.md): accepted interaction and runtime contracts.
+- [Lessons](lessons/index.md): reusable guidance from measured outcomes.
 - [Authoring guidance](README.md): how to extend the store safely.
 - [Structural log](log.md): initialization and work lifecycle changes.
 - [Templates](templates/index.md): reusable page scaffolds.

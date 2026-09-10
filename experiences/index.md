@@ -14,6 +14,8 @@ relates_to:
     kind: related
   - path: experiences/2026-09-05-closer-activation-framing.md
     kind: related
+  - path: experiences/2026-09-10-cartograph-v030-delivery.md
+    kind: related
 ---
 
 # Experiences
@@ -32,3 +34,6 @@ prescriptions or claims that a suspected cause has been proven.
 - [Closer activation framing](2026-09-05-closer-activation-framing.md):
   a user request exposed a restrictive 3x automatic zoom cap; a locally
   implemented 20x cap substantially enlarges the reported active group.
+- [v0.3.0 feedback and delivery](2026-09-10-cartograph-v030-delivery.md):
+  final visible-search preference, real bulk depth, bounded motion and
+  source-to-marketplace-to-global release evidence.

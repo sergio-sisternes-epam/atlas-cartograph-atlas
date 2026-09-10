@@ -3,8 +3,8 @@ type: work
 title: Bring activated nodes and connections closer
 created: 2026-09-05
 work_id: cartograph-closer-activation-framing-2026-09-05
-status: implementing
-description: Local camera framing improvement with delivery and user validation still pending.
+status: done
+description: Closer framing delivered; completion evidence recorded with the v0.3.0 release and global upgrade.
 origin: internal
 sensitivity: internal
 relates_to:
@@ -12,6 +12,8 @@ relates_to:
     kind: related
   - path: work/cartograph-activity-startup-2026-09-05.md
     kind: follows
+  - path: work/cartograph-v030-2026-09-10.md
+    kind: related
 ---
 
 ## Scope
@@ -22,11 +24,12 @@ without changing capture semantics, installed collectors, or Atlas content.
 
 ## Status
 
-Local implementation and targeted validation completed on 2026-09-05.
+At the original capture, local implementation and targeted validation completed on 2026-09-05.
 The code is uncommitted in the Cartograph worktree based on
 `75c0d234994924225067e4185e427924cdb0639f` at the time of this memory.
-It has not been pushed, merged, or installed in the reporting project's user
-extension. Keep this work open until delivery and user acceptance are confirmed.
+It had not then been pushed, merged, or installed in the reporting project's
+user extension. That historical local-only status is superseded by the closure
+evidence below, not silently rewritten as an earlier successful deployment.
 
 ## Outcomes
 
@@ -38,12 +41,15 @@ extension. Keep this work open until delivery and user acceptance are confirmed.
 - Added geometry and shared-renderer regression coverage; updated usage
   documentation and the Unreleased changelog.
 
-## Remaining work
+## Closure on 2026-09-10
 
-Review and publish the camera changes, update the consuming installation through
-its approved distribution path, and confirm the closer framing with the user.
-Record the eventual code commit and deployment evidence here. Do not treat
-publishing this memory as publishing the runtime change.
+The v0.3.0 release at `fe6de71e56422bda09dd0a92cf59d683d883e396`
+retains the 20x fit and adds faster singleton framing and stable restoration.
+The user accepted the real-Atlas view and requested release. Source release,
+marketplace publication and scoped global deployment are complete; see the
+[delivery hub](cartograph-v030-2026-09-10.md) for linked evidence.
+The global native canvas opened successfully. This does not claim a separate
+post-upgrade acceptance run in the original reporting session.
 
 Capture overload and the misleading Live freshness indicator remain a separate
 reliability concern from the preceding work hub.
