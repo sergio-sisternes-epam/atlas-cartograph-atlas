@@ -16,6 +16,8 @@ relates_to:
     kind: related
   - path: experiences/2026-09-10-cartograph-v030-delivery.md
     kind: related
+  - path: experiences/2026-09-10-v040-installed-runtime-and-sha.md
+    kind: related
 ---
 
 # Experiences
@@ -37,3 +39,6 @@ prescriptions or claims that a suspected cause has been proven.
 - [v0.3.0 feedback and delivery](2026-09-10-cartograph-v030-delivery.md):
   final visible-search preference, real bulk depth, bounded motion and
   source-to-marketplace-to-global release evidence.
+- [Installed v0.4.0 chat recovery and missing SHA](2026-09-10-v040-installed-runtime-and-sha.md):
+  reloading the affected session restored acknowledged chat replies; the
+  separate global source-install provenance gap remains tracked in issue #12.

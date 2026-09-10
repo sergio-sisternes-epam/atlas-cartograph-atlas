@@ -4,7 +4,7 @@ title: Stamp deployed SHA and route canvas chat through the host session
 created: 2026-09-10
 work_id: 2026-09-10-deploy-sha-and-session-chat
 status: done
-description: Released in v0.4.0 with stamped source identity and acknowledged session-backed chat, including real-host page reads and citation navigation.
+description: Released v0.4.0 with acknowledged session chat and stamped-package acceptance; the later global source-install SHA gap remains open in issue #12.
 origin: internal
 sensitivity: internal
 relates_to:
@@ -18,7 +18,10 @@ relates_to:
     kind: related
   - path: decisions/cartograph-ux-principles-protostar.md
     kind: related
+  - path: experiences/2026-09-10-v040-installed-runtime-and-sha.md
+    kind: related
 sources:
+  - https://github.com/sergio-sisternes-epam/atlas-cartograph/issues/12
   - https://github.com/sergio-sisternes-epam/atlas-cartograph/pull/10
   - https://github.com/sergio-sisternes-epam/atlas-cartograph/releases/tag/v0.4.0
   - https://github.com/sergio-sisternes-epam/apm-marketplace/pull/12
@@ -36,6 +39,11 @@ instead of the underlying Copilot session.
 
 `done`. Runtime, tests and docs were merged in PR #10 and released as v0.4.0
 at `0e391ffb530252874b5ed163a17228a471789a12`.
+
+This status records the shipped implementation and stamped-package acceptance,
+not proof that every installation path preserves source identity. A later global
+source-install SHA defect remains open in
+[Cartograph issue #12](https://github.com/sergio-sisternes-epam/atlas-cartograph/issues/12).
 
 The initial completion claim was corrected after native testing on 2026-09-10:
 the question reached the session, but the canvas displayed a UUID instead of
@@ -84,6 +92,17 @@ pinning v0.4.0 to the released source commit. Isolated marketplace resolution
 confirmed that version and SHA. Existing installations require an explicit
 refresh/update; the owner's separately requested global update subsequently
 completed without changing unrelated toolkit references.
+
+## Post-release qualification
+
+The [installed-runtime follow-up](../../experiences/2026-09-10-v040-installed-runtime-and-sha.md)
+separates two observations. The affected session was still running an older
+extension without `update_chat`; reloading that session restored real page reads
+and acknowledged answers in fresh installed canvases. Independently, the
+source-installed v0.4.0 runtime still had an unexpanded build placeholder and
+displayed `SHA unavailable`. That metadata gap is not fixed by reloading and
+remains tracked in issue #12. The earlier archive acceptance must not be used as
+evidence that the actual source-based installation preserves the SHA.
 
 ## Related
 
