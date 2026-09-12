@@ -44,3 +44,8 @@ There is no unattended experience collection or background capture.
 - [Documents](documents/index.md): investigation summaries and candidate reports.
 - [Structural log](log.md): initialization and work lifecycle changes.
 - [Templates](templates/index.md): the initialized Atlas authoring templates.
+
+## License
+
+The source is publicly readable but is not open source. Copyright (c) 2026
+Sergio Sisternes. All rights are reserved; see [LICENSE](LICENSE).
